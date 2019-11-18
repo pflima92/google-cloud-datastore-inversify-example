@@ -1,0 +1,28 @@
+{
+  "name": "google-cloud-datastore-inversify-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^4.5.2",
+    "class-validator": "^0.11.0",
+    "faker": "^4.1.0",
+    "guid-typescript": "^1.0.9",
+    "inversify": "^5.0.1",
+    "inversify-datastore": "../google-cloud-datastore-inversify",
+    "reflect-metadata": "^0.1.13"
+  }
+}
