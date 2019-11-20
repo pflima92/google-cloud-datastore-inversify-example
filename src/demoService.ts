@@ -19,7 +19,7 @@ export class DemoService {
     console.info("Starting Demo");
 
     const listOfUsersToCreate = [];
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 10; i++) {
       const fakeUser = new User(
           Guid.create().toString(),
           faker.name.findName(),
