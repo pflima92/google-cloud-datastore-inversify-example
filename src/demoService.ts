@@ -30,9 +30,9 @@ export class DemoService {
     }
 
     console.info("Create users");
-    for (const u of listOfUsersToCreate) {
-      await this._userRepo.save(u)
-    }
+
+    await this._userRepo.saveAll(listOfUsersToCreate);
+
     console.info("Users created");
 
     const users = await this._userRepo.findAll();

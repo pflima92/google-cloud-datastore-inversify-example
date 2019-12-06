@@ -22,7 +22,7 @@
     "faker": "^4.1.0",
     "guid-typescript": "^1.0.9",
     "inversify": "^5.0.1",
-    "inversify-datastore": "^0.2.0",
+    "inversify-datastore": "../google-cloud-datastore-inversify",
     "reflect-metadata": "^0.1.13"
   }
 }
